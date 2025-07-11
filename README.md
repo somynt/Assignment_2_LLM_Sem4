@@ -1,8 +1,10 @@
- Interpretable Multi-Label Toxic Comment Classification with ELECTRA
+Interpretable Multi-Label Toxic Comment Classification with ELECTRA
+
 This repository contains Assignment_2_LLM.ipynb, a Jupyter Notebook designed for training, fine-tuning, and evaluating a BERT-style Large Language Model (LLM) for multi-label toxic comment classification. The project focuses on building a robust and interpretable model capable of identifying various forms of toxicity in online text, addressing common challenges such as class imbalance and model opacity.
 
 Project Overview
-The primary objective of this assignment is to develop a high-performing and explainable multi-label classifier for toxic comments. It leverages state-of-the-art transformer models (ELECTRA), advanced hyperparameter optimisation techniques (Optuna), strategies for handling imbalanced datasets (SMOTETomeK, class weighting), and explainable AI (LIME) to provide insights into model predictions.
+
+The primary objective of this assignment is to develop a high-performing and explainable multi-label classifier for toxic comments. It leverages state-of-the-art transformer models (ELECTRA), advanced hyperparameter optimisation techniques (Optuna), strategies for handling imbalanced datasets (SMOTETomeK, class weighting), and explainable AI (LIME) to provide insights into model predictions. A kaggle.json file is provided to run the file. The data set is also available in this link- https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge 
 
 Features
 Multi-Label Classification: Classifies comments into six distinct toxicity categories: toxic, severe_toxic, obscene, threat, insult, identity_hate.
