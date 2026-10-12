@@ -1,0 +1,19 @@
+# Credentials - never commit
+kaggle.json
+.env
+
+# Data and model outputs
+*.csv
+*.zip
+*.db
+*.pt
+*.pth
+*.bin
+*.safetensors
+results*/
+best_electra_multilabel_model/
+final_electra_multilabel_model_results/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
